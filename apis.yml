@@ -1,0 +1,114 @@
+aid: arc-browser
+url: https://raw.githubusercontent.com/api-evangelist/arc-browser/refs/heads/main/apis.yml
+name: Arc (The Browser Company)
+kind: company
+description: >-
+  Arc is a Chromium-based alternative web browser from The Browser Company,
+  organized around Spaces, Profiles, Split View, Boosts (user-authored
+  CSS/JS overlays), Easels, Notes, and Arc Search on mobile. Arc is primarily
+  a consumer product without a broad public developer REST API. Developer
+  surface area is limited to Developer Mode in the desktop browser, the
+  underlying Chromium extension model, and user-created Boosts. The company
+  has signalled that Arc's active product investment is winding down in favor
+  of the successor product, Dia.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Browser
+  - Consumer
+  - Chromium
+  - Boosts
+  - The Browser Company
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: arc-browser:desktop
+    name: Arc Browser (Desktop)
+    description: >-
+      Desktop browser for macOS and Windows, organized around Spaces, Profiles,
+      Tabs, Split View, and Themes. Built on Chromium.
+    humanURL: https://arc.net/
+    baseURL: https://arc.net/
+    tags:
+      - Desktop
+      - macOS
+      - Windows
+    properties:
+      - type: Website
+        url: https://arc.net/
+  - aid: arc-browser:search
+    name: Arc Search
+    description: >-
+      Mobile-first AI-augmented search and browsing experience that builds
+      "Browse for Me" summary pages from a query. iOS and Android.
+    humanURL: https://arc.net/search
+    baseURL: https://arc.net/search
+    tags:
+      - Mobile
+      - Search
+      - AI
+    properties:
+      - type: Website
+        url: https://arc.net/search
+  - aid: arc-browser:boosts
+    name: Arc Boosts
+    description: >-
+      User-authored CSS and JavaScript overlays that customize the look and
+      behavior of any website inside Arc. Authored from inside the browser
+      rather than via a public REST API; can be shared via Boost links.
+    humanURL: https://arc.net/boosts
+    baseURL: https://arc.net/boosts
+    tags:
+      - Customization
+      - CSS
+      - JavaScript
+    properties:
+      - type: Website
+        url: https://arc.net/boosts
+  - aid: arc-browser:extensions
+    name: Arc Chromium Extensions
+    description: >-
+      Arc inherits the Chromium / Chrome Web Store extension model, so any
+      Manifest V3 extension can be installed. There is no Arc-specific
+      extension API beyond Chromium.
+    humanURL: https://chromewebstore.google.com/
+    baseURL: https://chromewebstore.google.com/
+    tags:
+      - Extensions
+      - Chromium
+    properties:
+      - type: Website
+        url: https://chromewebstore.google.com/
+  - aid: arc-browser:developer-mode
+    name: Arc Developer Mode
+    description: >-
+      In-browser Developer Mode for engineers - exposes developer tools,
+      extension management, and Portrait Mode for sharing in-progress work.
+      Not a public API.
+    humanURL: https://resources.arc.net/
+    baseURL: https://resources.arc.net/
+    tags:
+      - Developer Tools
+    properties:
+      - type: Website
+        url: https://resources.arc.net/
+common:
+  - type: Website
+    url: https://arc.net/
+  - type: Company
+    url: https://thebrowser.company/
+  - type: ResourceCenter
+    url: https://resources.arc.net/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-browser-company
+  - type: Twitter
+    url: https://twitter.com/browsercompany
+integrations:
+  - name: Chromium Extensions
+  - name: Notion
+  - name: Linear
+  - name: GitHub
+  - name: Figma
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

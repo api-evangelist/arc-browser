@@ -11,7 +11,7 @@ description: >-
   underlying Chromium extension model, and user-created Boosts. The company
   has signalled that Arc's active product investment is winding down in favor
   of the successor product, Dia.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Browser
   - Consumer

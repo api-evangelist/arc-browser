@@ -93,6 +93,12 @@ apis:
       - type: Website
         url: https://resources.arc.net/
 common:
+  - type: TrustCenter
+    url: security/arc-browser-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/arc-browser-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/arc-browser-domain-security.yml
   - type: Website
     url: https://arc.net/
   - type: Company
@@ -103,6 +109,8 @@ common:
     url: https://www.linkedin.com/company/the-browser-company
   - type: Twitter
     url: https://twitter.com/browsercompany
+  - type: Blog
+    url: https://arc.net/blog
 integrations:
   - name: Chromium Extensions
   - name: Notion

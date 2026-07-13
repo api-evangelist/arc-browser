@@ -1,0 +1,21 @@
+{
+  "repo": "arc-browser",
+  "feeds": [
+    {
+      "source": "https://arc.net/blog",
+      "feed_url": "https://arc.net/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://twitter.com/browsercompany",
+      "feed_url": "https://twitter.com/browsercompany",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5
+}

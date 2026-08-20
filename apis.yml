@@ -58,6 +58,10 @@ apis:
     tags:
       - Mobile
       - Search
+      - Artificial Intelligence
+    tags_raw:
+      - Mobile
+      - Search
       - AI
     properties:
       - type: Website

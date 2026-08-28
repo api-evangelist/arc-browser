@@ -11,6 +11,17 @@ description: >-
   underlying Chromium extension model, and user-created Boosts. The company
   has signalled that Arc's active product investment is winding down in favor
   of the successor product, Dia.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown

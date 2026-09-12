@@ -2,23 +2,21 @@
   "repo": "arc-browser",
   "feeds": [
     {
-      "source": "https://arc.net/blog",
-      "feed_url": "https://arc.net/blog",
-      "title": "",
-      "saved": 0,
-      "method": "none",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
       "source": "https://twitter.com/browsercompany",
       "feed_url": "https://twitter.com/browsercompany",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://arc.net/blog",
+      "feed_url": "https://arc.net/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 5,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",

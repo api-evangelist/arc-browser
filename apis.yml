@@ -51,7 +51,6 @@ apis:
       Desktop browser for macOS and Windows, organized around Spaces, Profiles,
       Tabs, Split View, and Themes. Built on Chromium.
     humanURL: https://arc.net/
-    baseURL: https://arc.net/
     tags:
       - Desktop
       - macOS
@@ -107,6 +106,7 @@ apis:
       - type: Website
         url: https://chromewebstore.google.com/
   - aid: arc-browser:developer-mode
+    x-published: false
     name: Arc Developer Mode
     description: >-
       In-browser Developer Mode for engineers - exposes developer tools,

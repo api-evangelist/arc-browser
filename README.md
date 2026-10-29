@@ -1,4 +1,4 @@
-# arc-browser
+# Arc (The Browser Company)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arc (The Browser Company) — alt browser + Arc Search
+Arc is a Chromium-based alternative web browser from The Browser Company, organized around Spaces, Profiles, Split View, Boosts (user-authored CSS/JS overlays), Easels, Notes, and Arc Search on mobile. Arc is primarily a consumer product without a broad public developer REST API. Developer surface area is limited to Developer Mode in the desktop browser, the underlying Chromium extension model, and user-created Boosts. The company has signalled that Arc's active product investment is winding down in favor of the successor product, Dia.
+
+**Areas:** Browser · Consumer · Chromium · Boosts · The Browser Company
+
+## Arc (The Browser Company) on APIs.io
+
+Everything profiled for Arc (The Browser Company) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arc-browser/](https://apis.io/providers/arc-browser/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Arc Browser (Desktop)](https://apis.io/apis/arc-browser/desktop/) — Desktop browser for macOS and Windows, organized around Spaces, Profiles, Tabs, Split View, and Themes. Built on Chromium.
+- [Arc Search](https://apis.io/apis/arc-browser/search/) — Mobile-first AI-augmented search and browsing experience that builds "Browse for Me" summary pages from a query. iOS and Android.
+- [Arc Boosts](https://apis.io/apis/arc-browser/boosts/) — User-authored CSS and JavaScript overlays that customize the look and behavior of any website inside Arc. Authored from inside the browser rather than via a…
+- [Arc Chromium Extensions](https://apis.io/apis/arc-browser/extensions/) — Arc inherits the Chromium / Chrome Web Store extension model, so any Manifest V3 extension can be installed. There is no Arc-specific extension API beyond…
+- [Arc Developer Mode](https://apis.io/apis/arc-browser/developer-mode/) — In-browser Developer Mode for engineers - exposes developer tools, extension management, and Portrait Mode for sharing in-progress work. Not a public API.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arc Browser Domain Security](https://apis.io/security/arc-browser/arc-browser-domain-security/)
+- [Arc Browser Trust Center](https://apis.io/security/arc-browser/arc-browser-trust-center/)
+- [Arc Browser Vulnerability Disclosure](https://apis.io/security/arc-browser/arc-browser-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Arc Browser Plans Pricing](https://apis.io/plans/arc-browser/arc-browser-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Arc Browser Rate Limits](https://apis.io/rate-limits/arc-browser/arc-browser-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Arc Browser Finops](https://apis.io/finops/arc-browser/arc-browser-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://arc.net/)
+- [Blog](https://arc.net/blog)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arc-browser/](https://apis.io/providers/arc-browser/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arc (The Browser Company): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arc-browser/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
